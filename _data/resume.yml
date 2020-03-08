@@ -15,7 +15,7 @@ contact: #联系方式连接等3~5行
 - text: "15221275159"
   href: 'tel:15221275159'
   icon: 'icons/phone.svg'
-- text: "your-website.com"
+- text: ""
   href: ''
   icon: 'icons/web.svg'
 - text: "ddyasmile"
@@ -30,77 +30,79 @@ main: #简历主要内容，
 - type: education #类别为ID
   name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 大学名称
-    duration: "2011年x月 - 2015年"
-    sub: 地点或学历
-    detail: 专业或者简短说明
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+  - title: 上海交通大学
+    duration: "2017年9月至今"
+    sub: 上海交通大学闵行校区
+    detail: 本科主修软件工程
 
 - type: skills
-  # name: "技能"
+  name: 技能
   content:
   - title: 编程语言
+    tags:
+    - 大于1000行
     items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+    - C/C++
+    tags:
+    - 小于1000行
+    items:
+    - Java
+    - Python
+    - C#
 
 - type: experience
-  name: 经验
+  name: 课程学习经历
   content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
+  - title: 计算机图形学
+    duration: "2019.09-2020.01"
     tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
-    # open: open
+    - C/C++
+    detail: 学习了OpenGL传统图形处理管线的处理过程。了解了OpenGL中的一些实现，如多级采样技术、坐标系变换、光照模型、阴影映射、法线贴图等。自行学习了现代OpenGL的使用方法，并完成了个人课程作业，作业内容涉及模型加载与渲染、光照计算、摄像机和粒子系统的实现。
+    open: open
     #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
+  - title: 计算机系统工程
+    duration: "2019.09-2020.01"
     tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    - C/C++
+    summary: 从软件角度学习了计算机、网络以及安全相关知识
+    detail: 以文件系统为案例，学习了多线程编程，重点实现了多线程下的锁机制。学习了进程切换机制、网络协议、权限管理与安全相关知识。实现了一个基于RPC的、具有锁机制的网络文件系统，当有多个客户端要修改服务端的同一个文件时，通过锁保持一致性。
+    open: open
+  - title: 编译原理
+    duration: "2019.09-2020.01"
+    tags: 
+    - C/C++
+    detail: 学习了编译器的实现原理，包括词/语法分析、类型检查、生成中间表示树、数据流分析、指令选择和寄存器分配一整套流程。实现了一个简单的针对Tiger语言的编译器（一个用于教学的语言）。
+    open: open
+  - title: 计算机系统基础
+    duration: "2018.09-2019.09"
+    tags: 
+    - C/C++
+    detail: 以x86-64为例，讲解了计算机系统架构，包括寄存器、指令集架构、处理器架构、高速缓存、虚拟内存布局和内存分配机制。完成了课程作业，包括观察汇编了解程序行为，通过数组溢出控制程序行为；实现了Y86汇编器和Y86模拟器（一个教学用处理器架构)；实现了一个简单的内存分配器，可以代替C中的malloc函数。
+    open: open
 
 - type: projects
-  name: Projects
+  name: 项目
   content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
-   #可继续添加更多内容
+  - title: QQ群聊机器人
+    sub: 个人项目
+    duration: "2020.02"
+    tags: 
+    - C/C++
+    detail: 基于酷Q、coolq-http-api和nonebot实现了一个QQ群聊机器人，使用了Python进行编写并利用docker将其部署在服务器上。现有b站视频更新通知、群员发言数量记录和排序以及天气播报功能。
 
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: others #ID可以为空
-  name: '其他'
+  name: 其他
   content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
+  - title: 兴趣爱好
     list:
-    - 第一项
-    - 第二项
+    - 看番
+    - 打崩崩崩
+    - 打音游
+    - coding
+  - title: 对未来的想法
+    detail: 希望进入游戏公司制作游戏，给别人带来快乐。
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
@@ -111,7 +113,6 @@ others: #其他列表显示
 footer: #脚注多组
   print: #打印版markdown或者html
   screen:
-  - text: "简历脚注"
   #   href: '/'
   - text: "Made with &hearts; by NewFuture"
     href: "https://github.com/NewFuture/CV/"
