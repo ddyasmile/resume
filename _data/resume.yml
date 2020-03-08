@@ -36,6 +36,8 @@ main: #简历主要内容，
   name: 技能
   content:
   - title: 编程语言
+    tags:
+    - C/C++使用的最多
     items: #itmems 可以小块的方式显示
     - C/C++
     - Java
@@ -44,7 +46,6 @@ main: #简历主要内容，
     - HTML
     - Javascript
     - Shell
-    detail: 其中C/C++使用的最多
 
 - type: experience
   name: 课程经历
@@ -97,8 +98,7 @@ others: #其他列表显示
     - 打崩崩崩
     - 打音游
     - coding
-  - title: 对未来的想法
-    detail: 希望进入游戏公司制作游戏，给别人带来快乐。
+  - title: 希望进入游戏公司制作游戏，给别人带来快乐
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
