@@ -15,9 +15,6 @@ contact: #联系方式连接等3~5行
 - text: "15221275159"
   href: 'tel:15221275159'
   icon: 'icons/phone.svg'
-- text: ""
-  href: ''
-  icon: 'icons/web.svg'
 - text: "ddyasmile"
   href: 'https://github.com/ddyasmile'
   icon: "icons/github.svg"
@@ -31,7 +28,7 @@ main: #简历主要内容，
   name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 上海交通大学
-    duration: "2017年9月至今"
+    duration: "2017.09至今"
     sub: 上海交通大学闵行校区
     detail: 本科主修软件工程
 
@@ -39,19 +36,18 @@ main: #简历主要内容，
   name: 技能
   content:
   - title: 编程语言
-    tags:
-    - 大于1000行
     items: #itmems 可以小块的方式显示
     - C/C++
-    tags:
-    - 小于1000行
-    items:
     - Java
     - Python
     - C#
+    - HTML
+    - Javascript
+    - Shell
+    detail: 其中C/C++使用的最多
 
 - type: experience
-  name: 课程学习经历
+  name: 课程经历
   content:
   - title: 计算机图形学
     duration: "2019.09-2020.01"
