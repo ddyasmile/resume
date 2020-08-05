@@ -125,8 +125,6 @@ main: #简历主要内容，
     detail: 
       md: _data/cg_project.md
 
-  - title: 
-
   - title: QQ群聊机器人
     sub: 个人项目
     duration: 出于兴趣
@@ -138,6 +136,7 @@ main: #简历主要内容，
 - type: interest
   name: 兴趣爱好
   content:
+  - title:
     detail:
       md: _data/interests.md
     open: open
