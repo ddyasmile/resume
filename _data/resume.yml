@@ -138,7 +138,9 @@ main: #简历主要内容，
 - type: interest
   name: 兴趣爱好
   content:
-   md: _data/interests.md
+    detail:
+      md: _data/interests.md
+    open: open
 
 # - type: self-evaluation
 #   name: 自我评价
