@@ -99,7 +99,7 @@ main: #简历主要内容，
 - type: awards
   name: 活动奖项
   content: 
-  - title: 莉莉丝游戏制作训练营结营证书
+  - title: 莉莉丝游戏制作训练营1.0结营证书
     sub: "2020.03"
 
 - type: interest
