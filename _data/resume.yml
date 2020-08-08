@@ -96,14 +96,6 @@ main: #简历主要内容，
       md: _data/_md/complier.md
     open: open
 
-  - title: QQ群聊机器人
-    sub: 个人项目
-    duration: 出于兴趣
-    tags: 
-    - Python
-    summary: 基于酷Q、cqhttp、nonebot、HoshinoBot的QQ机器人
-    detail: 在HoshinoBot提供的服务层之上进行插件开发，主要提供爬虫类功能。
-
 - type: interest
   name: 兴趣爱好
   content:
