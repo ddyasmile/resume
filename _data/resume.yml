@@ -46,7 +46,7 @@ main: #简历主要内容，
     - Shell
   - title: 技能树
     detail:
-      md: _data/skills.md
+      md: _data/_md/skills.md
     open: open
 
 - type: projects
@@ -54,37 +54,47 @@ main: #简历主要内容，
   content:
   - title: 碎裂算法模拟
     sub: Unity
-    duration: 游戏设计与开发课程
+    duration: "2020.06"
     tags:
     - C#
-    summary: 参照论文复现物体受力后动态计算裂纹和碎裂面，然后再对物体进行分割的碎裂模拟。
-    detail: 在项目中我主要负责裂纹和碎裂面计算的部分。物体被分割为四面体单元，顶点称为节点，利用裂纹传播的方向矩阵确定的隐式平面计算被分割的边，在用被分割边的断裂位置确定某个四面体的分割平面
+    detail: 
+      md: _data/_md/gp_final.md
+    open: open
 
-  - title: 课程中设计的3D游戏
+  - title: 3D游戏开发
     sub: Unity
-    duration: 游戏设计与开发课程
+    duration: "2020.04"
     tags: 
     - C#
-    summary: 在课程中制作的一些游戏，主要目的是实现各种显示效果，游戏性上没有做考量
     detail: 
-      md: _data/gp_projects.md
+      md: _data/_md/gp_3d.md
+    open: open
 
-  - title: 平台跳跃2D游戏
+  - title: 2D游戏开发
     sub: Unity
-    duration: 游戏设计与开发课程
+    duration: "2020.04"
     tags:
     - C#
-    summary: 玩家控制小人从一个个平台上向下跳跃，既不能被上方的刺碰到，也不能下落得太快
-    detail: 实现了平台随机产生，到达终点后消失，角色动画状态机转换，角色移动跳跃死亡等逻辑
+    detail: 
+      md: _data/_md/gp_2d.md
+    open: open
   
   - title: 基于OpenGL的3D交互动画
     sub: OpenGL
-    duration: 计算机图形学课程
+    duration: "2019.12"
     tags:
     - C++
-    summary: 按照课程要求实现了一段可交互的场景
     detail: 
       md: _data/cg_project.md
+    open: open
+
+  - title: Tiger Complier
+    sub: Complier
+    duration: "2019.12"
+    tags: C++
+    detail:
+      md: _data/complier.md
+    open: open
 
   - title: QQ群聊机器人
     sub: 个人项目
