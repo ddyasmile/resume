@@ -109,7 +109,7 @@ main: #简历主要内容，
   content:
   - title:
     detail:
-      md: _data/interests.md
+      md: _data/_md/interests.md
     open: open
 
 # - type: self-evaluation
