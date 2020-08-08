@@ -85,7 +85,7 @@ main: #简历主要内容，
     tags:
     - C++
     detail: 
-      md: _data/cg_project.md
+      md: _data/_md/cg_project.md
     open: open
 
   - title: Tiger Complier
@@ -93,7 +93,7 @@ main: #简历主要内容，
     duration: "2019.12"
     tags: C++
     detail:
-      md: _data/complier.md
+      md: _data/_md/complier.md
     open: open
 
   - title: QQ群聊机器人
