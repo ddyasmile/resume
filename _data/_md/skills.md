@@ -4,7 +4,7 @@
 |---|
 | |
 
-了解
+掌握
 
 | OpenCV · Spring · Docker |
 |---|

@@ -4,7 +4,7 @@
 title: "高鹏成求职简历"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "高鹏成"
-jobtitle: "求职意向：游戏引擎研发" #可空不显示
+jobtitle: "" #可空不显示
 photo: "" #照片可空，不显示
 
 #联系方式
@@ -30,7 +30,7 @@ main: #简历主要内容，
   - title: 上海交通大学
     duration: "2017.09至2021.06"
     sub: 上海交通大学闵行校区
-    detail: 本科主修软件工程数字媒体
+    detail: 本科主修软件工程
 
 - type: skills
   name: 技能
