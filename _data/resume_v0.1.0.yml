@@ -52,14 +52,6 @@ main: #简历主要内容，
 - type: projects
   name: 项目
   content:
-  - title: 克隆危机
-    sub: 莉莉丝游戏比赛
-    duration: "2020.08"
-    tags:
-    - Lua
-    detail: 
-      md: _data/_md/lls_dfq1.0.md
-    open: open
   - title: 碎裂算法模拟
     sub: Unity
     duration: "2020.06"
